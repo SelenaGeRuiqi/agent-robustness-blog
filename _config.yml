@@ -1,0 +1,46 @@
+# Site settings
+title: "Dissecting Adversarial Robustness of Multimodal LM Agents"
+description: "A research blog exploring adversarial attacks on multimodal language-vision agents in e-commerce environments"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Project information
+github_repo: "https://github.com/ChenWu98/agent-attack"
+paper_url: "https://arxiv.org/abs/2406.12814"
+conference: "ICLR 2025"
+
+# Team information
+team:
+  - name: "Chen Henry Wu"
+  - name: "Rishi Shah"
+  - name: "Jing Yu Koh"
+  - name: "Ruslan Salakhutdinov"
+  - name: "Daniel Fried"
+  - name: "Aditi Raghunathan"
+institution: "Carnegie Mellon University"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Collections
+collections:
+  sections:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
