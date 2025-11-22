@@ -53,7 +53,7 @@ agent-robustness-blog/
    - Go to Settings → Pages
    - Select branch: `main`, folder: `/ (root)`
    - Save
-3. **Access your site** at: `https://YOUR-USERNAME.github.io/agent-robustness-blog/`
+3. **Access your site** at: `https://SelenaGeRuiqi.github.io/agent-robustness-blog/`
 
 For detailed instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
 
